@@ -1,0 +1,23 @@
+name: Shortcode Ruby
+version: 1.0.0
+description: "Use the Shortcode Core Plugin to provide the [ruby] shortcode."
+icon:  language
+author:
+  name: Sven Hüser, François VIDIT
+  email: s.hueser@gmail.com
+  url: http://www.huesersohn.de
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
